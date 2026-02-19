@@ -29,4 +29,4 @@ On the smooth surface, this produces a steady angular velocity. When entering th
 This leads to a reduction in <a>$\omega$</a>. Unlike velocity control, no corrective torque is applied. Motor current remains approximately constant, while wheel speed drops to a lower equilibrium.
 
 ### data collection
-Encoder data provides <a>$\omega(t)$</a>, firmware logs give <a>*I*(t)</a>. <a>$\hat{\tau}(t)$</a> is either provided by the firmware interface (if available) or estimated offline from <a>*I*(t)</a> using a torque constant. Comparing signals before and after the transition reveals how each type of control handles increased external load.
+Encoder data provides <a>$\omega(t)$</a>, firmware logs give <a>*I*(t)</a>. <a>$\hat{\tau}(t)$</a> is either provided by the firmware interface directly (if available) or estimated offline from <a>*I*(t)</a> using a torque constant. Comparing signals before and after the transition reveals how each type of control handles increased external load.
