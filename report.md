@@ -2,7 +2,7 @@ report of Maxime Van Insberghe, Richard Nollet, Martijn
 
 ## experiment setup
 
-This experiment investigates the system's response to a step-change in friction. The robot transitions from a smooth, low-friction surface to a high-friction surface (e.g., carpet). This setup allows us to observe how the controller handles a sudden increase in external resistance torque without physical impact or mechanical changes to the robot itself.
+This experiment investigates the system's response to a step-change in friction. The robot transitions from a smooth, low-friction surface to a high-friction surface (e.g., carpet). This setup allows us to observe how a velocity or a torque controller handles a sudden increase in external resistance torque without physical impact or mechanical changes to the robot itself.
 ![Alt text](setup.svg "Optional title")
 
 ## experiment expectations
