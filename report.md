@@ -2,16 +2,31 @@ report of Maxime Van Insberghe, Richard Nollet, Martijn Spaepen
 
 ## experiment setup
 
-This experiment investigates the system's response to a step-change in friction. The robot transitions from a smooth, low-friction surface to a high-friction surface (e.g., carpet). This setup allows us to observe how a velocity or a torque controller handles a sudden increase in external resistance torque without physical impact or mechanical changes to the robot itself.
-![Alt text](setup.svg "Optional title")
+The robot drives in a straight line such that both wheels experience a step increase in rolling resistance when transitioning from a smooth surface to a high-friction surface, (for example a carpet).
+This creates a disturbance torque without mechanical impact or configuration changes.
+![Alt text](setup.svg "Setup")
+The experiment is executed twice: once with wheel velocity control and once with wheel torque control. 
+Logged data: wheel encoders (velocity) <a>$\omega$</a>, estimated motor torque <a>$\hat{\tau}$</a>, motor current <a>*I*</a>. 
 
 ## experiment expectations
 ### velocity control
 
-When the robot is driving on the smooth surface and the desired speed is reached, the current settles to a steady-state value. At this stage, the generated torque is sufficient to counteract the minimal rolling resistance and internal friction.
+On the smooth surface, the wheels reach steady angular velocity <a>$\omega^*$</a>, with motor current settling to a certain value balancing internal losses and rolling resistance.
 
-When the robot reaches the carpet, the friction will suddendly increase. Since the controller is tasked with maintaining a constant angular velocity, it detects an immediate drop in speed (the velocity error). In response, the feedback loop initiates a large current spike to provide the necessary torque to overcome this new load and re-accelerate the wheels. Once the target speed is recovered, the current settles at a new steady-state equilibrium. This level is significantly higher than the initial baseline, as a larger continuous torque is now required to sustain the same velocity against the increased friction of the carpet.
+When the robot reaches the carpet, the friction will suddendly increase.
+From first principles: 
+<a>$J \dot{\omega} = \tau_{motor}-\tau_{resist}$</a>.
 
-Because of the sudden change in fricton, there will be a small dip in speed.
+The increased <a>$\tau_{resist}$</a> causes a brief drop in <a>$\omega$</a>. The controller reacts to this velocity error by increasing motor current, producing higher torque. After a transient, <a>$\omega$</a> returns close to <a>$\omega^*$</a>, while <a>$\hat{\tau}$</a>and <a>*I*</a> settle at a higher steady value corresponding to the increased friction.
 
-# torque control
+### torque control
+A constant motor torque <a>$\tau^*$</a> is set.
+
+On the smooth surface, this produces a steady angular velocity. When entering the carpet, <a>$\tau_{resist}$</a> increases while <a>$\tau_{motor}$</a> remains fixed. Consequently, net torque decreases and the wheel decelerates:
+
+<a>$J \dot{\omega} = \tau^*-\tau_{resist} < 0$</a>
+
+This leads to a reduction in <a>$\omega$</a>. Unlike velocity control, no corrective torque is applied. Motor current remains approximately constant, while wheel speed drops to a lower equilibrium.
+
+### data collection
+Encoder data provides <a>$\omega(t)$</a>, firmware logs give <a>*I*(t)</a>. <a>$\hat{\tau}(t)$</a> is either provided by the firmware interface (if available) or estimated offline from <a>*I*(t)</a> using a torque constant. Comparing signals before and after the transition reveals how each type of control handles increased external load.
