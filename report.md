@@ -26,7 +26,7 @@ On the smooth surface, this produces a steady angular velocity. When entering th
 
 <a>$J \dot{\omega} = \tau^*-\tau_{resist} < 0$</a>
 
-This leads to a reduction in <a>$\omega$</a>. Unlike velocity control, no corrective torque is applied. Motor current remains approximately constant, while wheel speed drops to a lower equilibrium.
+This leads to a reduction in <a>$\omega$</a>. Unlike velocity control, no corrective torque is applied. Motor current remains approximately constant, while wheel speed drops to a lower equilibrium. In the event that <a>$\tau_{resist}$</a> surpasses <a>$\tau_{motor}$</a>, the net driving force will become insufficient to sustain motion. Consequently, the robot will decelerate and eventually reach a complete stall, as the system lacks the necessary torque to overcome the increased external load.
 
 ### data collection
 Encoder data provides <a>$\omega(t)$</a>, firmware logs give <a>*I*(t)</a>. <a>$\hat{\tau}(t)$</a> is either provided by the firmware interface directly (if available) or estimated offline from <a>*I*(t)</a> using a torque constant. Comparing signals before and after the transition reveals how each type of control handles increased external load.
