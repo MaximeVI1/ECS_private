@@ -6,7 +6,7 @@ The robot drives in a straight line such that both wheels experience a step incr
 This creates a disturbance torque without mechanical impact or configuration changes.
 ![Alt text](setup.svg "Setup")
 The experiment is executed twice: once with wheel velocity control and once with wheel torque control. 
-Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor torque <a>$\hat{\tau}$</a>, motor current <a>*I*</a>. 
+Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor torque <a>$\hat{\tau}$</a>, motor current <a>*I*</a>.
 
 ## experiment expectations
 ### velocity control
