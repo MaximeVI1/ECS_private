@@ -17,7 +17,7 @@ When the robot reaches the carpet, the friction will suddendly increase.
 From first principles: 
 <a>$J \dot{\omega} = \tau_{motor}-\tau_{resist}$</a>.
 
-The increased <a>$\tau_{resist}$</a> causes a brief drop in <a>$\omega$</a>. The controller reacts to this velocity error by increasing motor current, producing higher torque. After a transient, <a>$\omega$</a> returns close to <a>$\omega^*$</a>, while <a>$\hat{\tau}$</a>and <a>*I*</a> settle at a higher steady value corresponding to the increased friction.
+The increased <a>$\tau_{resist}$</a> causes a brief drop in <a>$\omega$</a>. The controller reacts to this velocity error by increasing motor current, producing higher torque. After a transient, <a>$\omega$</a> returns close to <a>$\omega^*$</a>, while <a>$\hat{\tau}$</a> and <a>*I*</a> settle at a higher steady value corresponding to the increased friction.
 
 ### torque control
 A constant motor torque <a>$\tau^*$</a> is set.
