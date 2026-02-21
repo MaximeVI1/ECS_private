@@ -13,7 +13,8 @@ Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor 
 
 ## experiment expectations
 
-<img src="graph.svg" alt="Test" width="500">
+<img src="vc.svg" alt="Test" width="500">
+<img src="tc.svg" alt="Test" width="500">
 
 ### velocity control
 
