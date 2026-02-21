@@ -9,6 +9,9 @@ The experiment is executed twice: once with wheel velocity control and once with
 Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor torque <a>$\hat{\tau}$</a>, motor current <a>*I*</a>.
 
 ## experiment expectations
+
+![Alt text](graph.svg "Setup")
+
 ### velocity control
 
 On the smooth surface, the wheels reach steady angular velocity <a>$\omega^*$</a>, with motor current settling to a certain value balancing internal losses and rolling resistance.

@@ -15,25 +15,34 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview1"
-     pagecolor="#ffffff"
+     pagecolor="#252525"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#3d3d3d"
      inkscape:document-units="mm"
-     inkscape:zoom="0.76783091"
-     inkscape:cx="228.56595"
-     inkscape:cy="276.10246"
-     inkscape:window-width="1512"
-     inkscape:window-height="921"
-     inkscape:window-x="0"
-     inkscape:window-y="61"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:zoom="1.0858769"
+     inkscape:cx="334.29204"
+     inkscape:cy="269.36755"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="0"
+     showgrid="false"
+     showborder="true" />
   <defs
      id="defs1">
+    <rect
+       x="532.66936"
+       y="48.187693"
+       width="132.84175"
+       height="66.420874"
+       id="rect4266" />
     <rect
        x="350.33755"
        y="498.80774"
@@ -96,41 +105,69 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#000000;stroke-width:10.9;paint-order:stroke fill markers"
+       style="fill:#ffffff;stroke-width:10.9;paint-order:stroke fill markers;fill-opacity:1"
        d="M 17.998198,16.558342 17.638234,123.8276"
        id="path1" />
     <path
-       style="fill:#000000;stroke-width:10.9;paint-order:stroke fill markers"
+       style="fill:#ffffff;stroke-width:10.9;paint-order:stroke fill markers;fill-opacity:1"
        d="M 161.62381,68.39315 12.238774,30.236972"
        id="path2" />
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;marker-start:url(#marker5)"
-       d="M 14.398558,14.038594 14.758522,129.94699"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5);paint-order:stroke fill markers;fill-opacity:1"
+       d="M 17.998198,16.558342 18.358162,132.46674"
        id="path3" />
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;marker-end:url(#Triangle)"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;marker-end:url(#Triangle);fill-opacity:1"
        d="M 14.407059,129.36022 176.08315,128.87494"
        id="path4" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-3.4458541,0.68917083)"
-       id="text5"
-       style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);fill:#000000;stroke:#000000;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="16.931641"
-         y="232.70775"
-         id="tspan1">i(A)</tspan></text>
-    <text
-       xml:space="preserve"
        transform="scale(0.26458333)"
        id="text6"
-       style="fill:#000000;text-orientation:auto;letter-spacing:0.16px;font-size:26.66666667px;stroke-width:1.51181102;paint-order:stroke fill markers;writing-mode:lr-tb;direction:ltr;stroke:#000000;stroke-opacity:1;stroke-dasharray:none;white-space:pre;shape-inside:url(#rect6)" />
+       style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text7"
-       style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);fill:#000000;stroke:#000000;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+       style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="350.33789"
-         y="523.13743"
-         id="tspan2">x(m)</tspan></text>
+         y="522.40237"
+         id="tspan1">x(m)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4264"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4266);display:inline;fill:#ffffff;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="147.82713"
+       y="12.405075"
+       id="text6318"><tspan
+         sodipodi:role="line"
+         id="tspan6316"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff5e03;fill-opacity:1;stroke-width:0.264583"
+         x="147.82713"
+         y="12.405075">Current (A)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1632ff;fill-opacity:1;stroke-width:0.264583"
+         x="147.82713"
+         y="18.578688"
+         id="tspan16946">Speed (rad/s)</tspan></text>
+    <path
+       style="fill:none;stroke:#7c7c7c;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.93, 0.965;stroke-dashoffset:0"
+       d="M 98.551427,18.952198 V 128.87494"
+       id="path12386" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#7c7c7c;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="102.32951"
+       y="41.210526"
+       id="text16954"><tspan
+         sodipodi:role="line"
+         id="tspan16952"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7c7c7c;fill-opacity:1;stroke-width:0.264583"
+         x="102.32951"
+         y="41.210526">Start of carpet </tspan></text>
   </g>
 </svg>
