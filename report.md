@@ -19,7 +19,7 @@ Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor 
 
 On the smooth surface, the wheels reach steady angular velocity <a>$\omega^*$</a>, with motor current settling to a certain value balancing internal losses and rolling resistance.
 
-When the robot reaches the carpet, the friction will suddendly increase.
+When the robot reaches the carpet, the resistance will suddendly increase.
 From first principles: 
 <a>$J \dot{\omega} = \tau_{motor}-\tau_{resist}$</a>.
 
