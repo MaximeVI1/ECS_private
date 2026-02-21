@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#3d3d3d"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0858769"
-     inkscape:cx="334.29204"
-     inkscape:cy="269.36755"
+     inkscape:zoom="1.65"
+     inkscape:cx="335.15152"
+     inkscape:cy="269.39394"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -132,7 +132,7 @@
        style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="350.33789"
          y="522.40237"
-         id="tspan1">x(m)</tspan></text>
+         id="tspan2">x(m)</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -155,19 +155,24 @@
          y="18.578688"
          id="tspan16946">Speed (rad/s)</tspan></text>
     <path
-       style="fill:none;stroke:#7c7c7c;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.93, 0.965;stroke-dashoffset:0"
-       d="M 98.551427,18.952198 V 128.87494"
+       style="fill:none;stroke:#7c7c7c;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.93, 0.965;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 96.358499,19.195857 V 129.1186"
        id="path12386" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#7c7c7c;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="102.32951"
-       y="41.210526"
+       x="60.663879"
+       y="25.860029"
        id="text16954"><tspan
          sodipodi:role="line"
          id="tspan16952"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7c7c7c;fill-opacity:1;stroke-width:0.264583"
-         x="102.32951"
-         y="41.210526">Start of carpet </tspan></text>
+         x="60.663879"
+         y="25.860029">Start of carpet </tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff5e03;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.030742,128.65178 c 0,0 3.376465,-59.419254 4.675279,-58.246936 1.763889,-0.160353 1.927016,19.727533 4.827409,19.884193 3.550199,0.191759 6.919062,-7.924621 9.502688,-7.932403 2.2612,-0.0068 5.659478,4.24206 9.015373,4.629515 1.60132,0.184881 49.950028,-0.24366 49.950028,-0.24366 0,0 2.397031,-30.696329 4.789861,-31.227819 1.88282,-0.418207 3.07172,12.35244 4.71283,12.466101 2.54425,0.176211 3.60991,-4.041137 6.09146,-4.629515 1.70627,-0.404559 63.35126,-0.487318 63.35126,-0.487318"
+       id="path6"
+       sodipodi:nodetypes="ccssscsssc" />
   </g>
 </svg>

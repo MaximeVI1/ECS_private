@@ -2,15 +2,18 @@ report of Maxime Van Insberghe, Richard Nollet, Martijn Spaepen
 
 ## experiment setup
 
-The robot drives in a straight line such that both wheels experience a step increase in rolling resistance when transitioning from a smooth surface to a high-friction surface, (for example a carpet).
+The robot drives in a straight line such that both wheels experience a step increase in rolling resistance when transitioning from a smooth surface to a high-friction surface.  
+(for example a carpet, or transitioning from concrete to grass).  
 This creates a disturbance torque without mechanical impact or configuration changes.
+
 ![Alt text](setup.svg "Setup")
-The experiment is executed twice: once with wheel velocity control and once with wheel torque control. 
+
+The experiment is executed twice: once with wheel velocity control and once with wheel torque control.  
 Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor torque <a>$\hat{\tau}$</a>, motor current <a>*I*</a>.
 
 ## experiment expectations
 
-![Alt text](graph.svg "Setup")
+<img src="graph.svg" alt="Test" width="500">
 
 ### velocity control
 
