@@ -13,10 +13,9 @@ Logged data: wheel encoders (angular position) <a>$\theta$</a>, estimated motor 
 
 ## experiment expectations
 
-<img src="vc.svg" alt="Test" width="500">
-<img src="tc.svg" alt="Test" width="500">
-
 ### velocity control
+
+<img src="vc.svg" alt="Test" width="500">
 
 On the smooth surface, the wheels reach steady angular velocity <a>$\omega^*$</a>, with motor current settling to a certain value balancing internal losses and rolling resistance.
 
@@ -27,6 +26,9 @@ From first principles:
 The increased <a>$\tau_{resist}$</a> causes a brief drop in <a>$\omega$</a>. The controller reacts to this velocity error by increasing motor current, producing higher torque. After a transient, <a>$\omega$</a> returns close to <a>$\omega^*$</a>, while <a>$\hat{\tau}$</a> and <a>*I*</a> settle at a higher steady value corresponding to the increased friction.
 
 ### torque control
+
+<img src="tc.svg" alt="Test" width="500">
+
 A constant motor torque <a>$\tau^*$</a> is set.
 
 On the smooth surface, this produces a steady angular velocity. When entering the carpet, <a>$\tau_{resist}$</a> increases while <a>$\tau_{motor}$</a> remains fixed. Consequently, net torque decreases and the wheel decelerates:
