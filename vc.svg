@@ -24,8 +24,8 @@
      inkscape:deskcolor="#3d3d3d"
      inkscape:document-units="mm"
      inkscape:zoom="1.1667262"
-     inkscape:cx="296.98485"
-     inkscape:cy="317.55523"
+     inkscape:cx="297.84194"
+     inkscape:cy="317.55522"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -131,11 +131,11 @@
        d="M 17.998198,16.558342 17.638234,123.8276"
        id="path1" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5);paint-order:stroke fill markers"
+       style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5);paint-order:stroke fill markers"
        d="M 17.998198,16.558342 18.358162,132.46674"
        id="path3" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle);paint-order:stroke fill markers"
+       style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle);paint-order:stroke fill markers"
        d="M 14.407059,129.36022 176.08315,128.87494"
        id="path4" />
     <text
@@ -147,10 +147,10 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text7"
-       style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+       style="font-size:26.6667px;letter-spacing:0.16px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="350.33789"
          y="522.40237"
-         id="tspan3">t (s)</tspan></text>
+         id="tspan1">t (s)</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -194,11 +194,11 @@
        style="font-size:17.3333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect21);shape-padding:1.51515;display:inline;fill:#6a6a6a;fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none"><tspan
          x="233.03125"
          y="54.258434"
-         id="tspan4">First set of wheels 
+         id="tspan2">First set of wheels 
 </tspan><tspan
          x="233.03125"
          y="75.92506"
-         id="tspan5">on the carpet</tspan></text>
+         id="tspan3">on the carpet</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,51.21541,-4.6200196)"
@@ -206,11 +206,11 @@
        style="font-size:17.3333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect21-0);shape-padding:1.51515;display:inline;fill:#6a6a6a;fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none"><tspan
          x="233.03125"
          y="54.258434"
-         id="tspan6">Second set of wheels 
+         id="tspan4">Second set of wheels 
 </tspan><tspan
          x="233.03125"
          y="75.92506"
-         id="tspan7">on the carpet</tspan></text>
+         id="tspan5">on the carpet</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:85.943;display:inline;stroke-width:0.264583"
@@ -220,8 +220,8 @@
        transform="translate(17.915157,6.1229019)"><tspan
          x="48.983215"
          y="-9.29774"
-         id="tspan9"><tspan
+         id="tspan7"><tspan
            style="fill:#ffffff"
-           id="tspan8">Velocity control</tspan></tspan></text>
+           id="tspan6">Velocity control</tspan></tspan></text>
   </g>
 </svg>
