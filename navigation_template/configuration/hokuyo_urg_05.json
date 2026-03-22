@@ -1,0 +1,9 @@
+{
+    "device_port": "/dev/ttyACM0",
+    "baudrate": 115200,
+    "min_angle": -2.0944,
+    "max_angle": 2.0944,
+    "step_angle": 1,
+    "accuracy": 0.03,
+    "max_number_of_connection_attempts": 3
+}

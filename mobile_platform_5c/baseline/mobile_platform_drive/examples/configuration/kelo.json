@@ -1,0 +1,33 @@
+{
+    "kelo":
+    {
+        "port": "eth0",
+        "max_number_of_connection_attempts": 3,
+        "min_time_between_connection_attempts": 2,
+        "config":
+        {
+            "params":
+            {
+                "pivot_offset": 0.01,
+                "wheel_radius": 0.0524,
+                "wheel_track": 0.0775
+            },
+            "limits":
+            {
+                "max_wheel_velocity": 15,
+                "max_wheel_acceleration": 3
+            }
+        },
+        "id":
+        {
+            "wheel_0":{
+                "name": "kelo_drive",
+                "sw_serial_number": 200020
+            },
+            "wheel_1":{
+                "name": "another_wheel",
+                "sw_serial_number": -1
+            }
+        }
+    }
+}

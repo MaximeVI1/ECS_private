@@ -1,0 +1,4 @@
+{
+    "sensor_log_file": "../application/logs/sensor_log.csv",
+    "actuation_log_file": "../application/logs/actuation_log.csv"
+}

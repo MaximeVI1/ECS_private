@@ -1,7 +1,7 @@
 /**
- * Example of data sharing between thread for 
+ * Example of data sharing between thread for
  * keyboard control of linear velocity.
- * 
+ *
  * @file: keyboard_interface.c
  */
 
@@ -15,12 +15,13 @@
 static void sigint_handler(int sig);
 
 /**
- * Listen to the keyboard and increment (W) or decrement (S) 
- * the counter accordingly. 
+ * Listen to the keyboard and increment (W) or decrement (S)
+ * the counter accordingly.
  */
 void *keyboard_listen(void *arg)
 {
-    while (!shutdown) {
+    while (!shutdown)
+    {
         // Keyboard interface data structure
         human_computer_interface_t hci;
 
@@ -32,12 +33,14 @@ void *keyboard_listen(void *arg)
         keyboard_to_hci(&keyboard_state, &hci);
 
         // If W-key was pressed, increase counter value
-        if (hci.discrete.up) {
+        if (hci.discrete.up)
+        {
             counter += 1;
         }
 
         // If S-key was pressed, decrease counter
-        if (hci.discrete.down) {
+        if (hci.discrete.down)
+        {
             counter -= 1;
         }
 
@@ -49,22 +52,23 @@ void *keyboard_listen(void *arg)
     }
 }
 
-/** 
+/**
  * Print the shared counter to terminal.
- * In a real application, this function would do something useful 
+ * In a real application, this function would do something useful
  * with the shared data, such as sending it to a motor as velocity
  * setpoint.
  */
 void *print_counter(void *arg)
 {
-    while (!shutdown) {
+    while (!shutdown)
+    {
         printf("\nCurrent value of counter: %d\n", counter);
         sleep(1);
     }
 }
 
 // Main function is executed when running compiled code
-int main() 
+int main()
 {
     // sigint_handler will be called when CTRL+C is pressed
     signal(SIGINT, sigint_handler);

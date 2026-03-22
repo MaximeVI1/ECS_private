@@ -1,0 +1,19 @@
+{
+    "thread_cycle_time_in_ms":
+    {
+        "drive": 4,
+        "lidar": 60,
+        "control": 50,
+        "navigation": 50,
+        "logging": 1000
+    },
+    "configuration_file":
+    {
+        "drive": "../configuration/kelo.json",
+        "proprioception": "../configuration/proprioception.json",
+        "control": "../configuration/control.json",
+        "lidar": "../configuration/hokuyo_urg_05.json",
+        "navigation": "../configuration/navigation.json",
+        "logging": "../configuration/logging.json"
+    }
+}

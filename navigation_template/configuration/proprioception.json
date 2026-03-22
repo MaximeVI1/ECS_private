@@ -1,0 +1,17 @@
+{
+    "sampling_time_tolerance": 100,
+    "platform":
+    {
+        "wheel":
+        {
+            "pose":
+            {
+                "x": 0.315,
+                "y": 0.0,
+                "yaw": 3.1415
+            }
+        },
+        "width": 0.285,
+        "length": 0.445
+    }
+}
