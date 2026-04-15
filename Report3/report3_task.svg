@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#222"/>
+    </marker>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #111; }
+      .label { font: 18px Arial, sans-serif; fill: #111; }
+      .small { font: 15px Arial, sans-serif; fill: #222; }
+      .wall { stroke: #222; stroke-width: 8; }
+      .robot { fill: #d9e8ff; stroke: #1f4fa3; stroke-width: 3; }
+      .door { fill: #eef7ee; stroke: #2b7a2b; stroke-width: 3; stroke-dasharray: 8 6; }
+      .scan { stroke: #cc3333; stroke-width: 2; opacity: 0.45; }
+      .path { stroke: #1f4fa3; stroke-width: 4; fill: none; stroke-dasharray: 10 7; marker-end: url(#arrow); }
+      .stopline { stroke: #cc0000; stroke-width: 3; stroke-dasharray: 8 6; }
+    </style>
+  </defs>
+
+  <!-- Corridor walls -->
+  <line x1="90" y1="110" x2="910" y2="110" class="wall"/>
+  <line x1="90" y1="410" x2="520" y2="410" class="wall"/>
+  <line x1="690" y1="410" x2="910" y2="410" class="wall"/>
+
+  <!-- Door opening -->
+  <rect x="520" y="394" width="170" height="32" class="door"/>
+  <text x="548" y="455" class="label">door opening</text>
+
+  <!-- Stop line -->
+  <line x1="605" y1="110" x2="605" y2="410" class="stopline"/>
+  <text x="615" y="250" class="label" transform="rotate(90 615,250)">robot stop</text>
+
+  <!-- Robot -->
+  <g transform="translate(220,260)">
+    <rect x="-55" y="-35" rx="18" ry="18" width="110" height="70" class="robot"/>
+    <polygon points="55,0 72,-10 72,10" fill="#1f4fa3"/>
+  </g>
+  <text x="155" y="315" class="label">robot start</text>
+
+  <!-- LIDAR scan -->
+  <line x1="220" y1="260" x2="300" y2="120" class="scan"/>
+  <line x1="220" y1="260" x2="420" y2="150" class="scan"/>
+  <line x1="220" y1="260" x2="490" y2="260" class="scan"/>
+  <line x1="220" y1="260" x2="420" y2="370" class="scan"/>
+  <line x1="220" y1="260" x2="300" y2="390" class="scan"/>
+
+  <!-- Motion path -->
+  <path d="M 300 260 C 430 255, 560 255, 650 255" class="path"/>
+  <text x="410" y="235" class="label">drive forward centered</text>
+
+  <!-- Distance indicators -->
+  <line x1="220" y1="260" x2="220" y2="110" stroke="#555" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="220" y1="260" x2="220" y2="410" stroke="#555" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="232" y="180" class="small">d_L</text>
+  <text x="232" y="350" class="small">d_R</text>
+
+  <text x="40" y="495" class="small">Robot remains centered and stops when doorway is detected.</text>
+</svg>

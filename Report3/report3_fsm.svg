@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#222"/>
+    </marker>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #111; }
+      .stateTitle { font: 700 22px Arial, sans-serif; fill: #111; }
+      .text { font: 17px Arial, sans-serif; fill: #111; }
+      .small { font: 15px Arial, sans-serif; fill: #222; }
+      .box { fill: #f8fbff; stroke: #1f4fa3; stroke-width: 3; }
+      .terminal { fill: #f4fff4; stroke: #2b7a2b; stroke-width: 3; }
+      .arrow { stroke: #222; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #777; stroke-width: 2.5; fill: none; stroke-dasharray: 8 6; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <text x="40" y="45" class="title">FSM for the task-level coordination</text>
+
+  <!-- Start -->
+  <circle cx="105" cy="210" r="22" fill="#222"/>
+  <path d="M127 210 L210 210" class="arrow"/>
+  <text x="58" y="255" class="text">start</text>
+
+  <!-- State 1 -->
+  <rect x="210" y="130" width="300" height="160" rx="22" ry="22" class="box"/>
+  <text x="315" y="165" class="stateTitle">State 1</text>
+  <text x="270" y="198" class="stateTitle">Corridor Following</text>
+  <text x="240" y="235" class="text">• keep robot centered</text>
+  <text x="240" y="263" class="text">• move forward with constant speed</text>
+  <text x="240" y="291" class="text">• monitor left/right free space</text>
+
+  <!-- Transition -->
+  <path d="M510 210 L650 210" class="arrow"/>
+  <text x="530" y="185" class="small">valid doorway detected</text>
+  <text x="548" y="205" class="small">and aligned</text>
+
+  <!-- State 2 -->
+  <rect x="650" y="145" width="230" height="130" rx="22" ry="22" class="terminal"/>
+  <text x="731" y="182" class="stateTitle">State 2</text>
+  <text x="703" y="215" class="stateTitle">Door Detected</text>
+  <text x="725" y="246" class="text">• stop robot</text>
+
+  <!-- Asynchronous activities note -->
+  <rect x="175" y="350" width="650" height="95" rx="18" ry="18" fill="#fffdf5" stroke="#8a6d1d" stroke-width="2.5"/>
+  <text x="215" y="385" class="stateTitle" style="font-size:20px;">Continuous asynchronous activities (outside the FSM)</text>
+  <text x="215" y="415" class="text">Sensor processing • world model update • control loop</text>
+
+  <path d="M360 350 C 360 320, 360 315, 360 290" class="dash"/>
+</svg>
