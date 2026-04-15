@@ -97,8 +97,8 @@ v = v_0 (constant)
 
 ### 6.3 Limitations
 
-- Assumes corridor-like structure  
-- No memory (No occupancy maps, instantaneous model only)  
+- A corridor-like structure is assumed. 
+- No memory (No occupancy map is made, instantaneous model only)  
 
 ## 7. Door Detection Mechanism
 
