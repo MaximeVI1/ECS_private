@@ -1,0 +1,39 @@
+- dit miss weg?:
+The focus is on implementing a feasible level of autonomy on the platform, where perception, estimation, and control operate continuously.
+
+- wat bedoel je met in front? moet hij al draaien?
+
+- e: moet dit niet /2 zijn?
+
+- is theta opening wel voldoende, want die blijft gewoon groeien als we dichter komen
+kan je niet direct de echte breedte berekenen?
+
+- producer consumer probleem met lidar data.
+thread 1 moet lidar mutex locken voor schrijven naar geheugen en unlocken als hij klaar is
+zelfde voor 2 en 3 maar mogen wel tegelijk
+
+- miss ook nog een lock voor de state en velocity tussen thread 2 en 3 => tweede lock
+
+- ook nog oppassen met race conditions => condition variabels:
+thread 3 in slaap tot 1 iets geschreven heeft => miss gewoon beter een event driven thread in plaats van een time-driven thread
+
+- waarom thread 2 op 50hz hij krijgt toch maar nieuwe data binnen aan 10 hz
+
+- welke data structuur, lijst met 100 elementen die cte herschreven wordt?
+
+- kversta niets van hoe die distances bepaalt worden, je hebt hier toch cosinussen ofzo voor nodig?
+
+-wat doet die filter precies, hoe werkt dat?
+
+- zou je niet ook twee aparte afstanden tot muur houden, een echt vanaf de positie van het platform
+en een vanaf de positie van het gemeten datapunt om de deurgaat te bekijken?
+
+- wat is die non lineariteit hier ?
+
+- hoe gaan we K_p bepalen??
+
+- wat is clamp
+
+- wat doet die estimation, we hebben toch gewoon data, geen voorspellingen ten opzichte van een fysisch model
+
+- ist nie beter om een stukje tekst te schrijven danu ai slop opsommen ??
