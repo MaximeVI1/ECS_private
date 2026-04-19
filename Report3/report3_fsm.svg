@@ -15,25 +15,22 @@
     </style>
   </defs>
 
-  <text x="40" y="45" class="title">FSM for the task-level coordination</text>
-
   <!-- Start -->
   <circle cx="105" cy="210" r="22" fill="#222"/>
   <path d="M127 210 L210 210" class="arrow"/>
   <text x="58" y="255" class="text">start</text>
 
-  <!-- State 1 -->
-  <rect x="210" y="130" width="300" height="160" rx="22" ry="22" class="box"/>
-  <text x="315" y="165" class="stateTitle">State 1</text>
-  <text x="270" y="198" class="stateTitle">Corridor Following</text>
-  <text x="240" y="235" class="text">• keep robot centered</text>
-  <text x="240" y="263" class="text">• move forward with constant speed</text>
-  <text x="240" y="291" class="text">• monitor left/right free space</text>
+  <!-- State 1 (enlarged) -->
+  <rect x="210" y="110" width="340" height="200" rx="22" ry="22" class="box"/>
+  <text x="335" y="155" class="stateTitle">State 1</text>
+  <text x="290" y="190" class="stateTitle">Corridor Following</text>
+  <text x="250" y="230" class="text">• keep robot centered</text>
+  <text x="250" y="260" class="text">• move forward with constant speed</text>
+  <text x="250" y="290" class="text">• monitor left/right free space</text>
 
   <!-- Transition -->
-  <path d="M510 210 L650 210" class="arrow"/>
-  <text x="530" y="185" class="small">valid doorway detected</text>
-  <text x="548" y="205" class="small">and aligned</text>
+  <path d="M550 210 L650 210" class="arrow"/>
+  <text x="560" y="120" class="small">valid doorway detected</text>
 
   <!-- State 2 -->
   <rect x="650" y="145" width="230" height="130" rx="22" ry="22" class="terminal"/>
@@ -44,7 +41,7 @@
   <!-- Asynchronous activities note -->
   <rect x="175" y="350" width="650" height="95" rx="18" ry="18" fill="#fffdf5" stroke="#8a6d1d" stroke-width="2.5"/>
   <text x="215" y="385" class="stateTitle" style="font-size:20px;">Continuous asynchronous activities (outside the FSM)</text>
-  <text x="215" y="415" class="text">Sensor processing • world model update • control loop</text>
+  <text x="215" y="415" class="text">Sensor processing, world model update, control loop</text>
 
-  <path d="M360 350 C 360 320, 360 315, 360 290" class="dash"/>
+  <path d="M380 350 C 380 320, 380 315, 380 310" class="dash"/>
 </svg>
